@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: 2300031688/2300031688-lab-backend:latest  # <-- change this
+          image: 2300031688/2300031688-lab-frontend:latest  # <-- change this
           ports:
             - containerPort: 80
           env:
